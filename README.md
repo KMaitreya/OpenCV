@@ -7,3 +7,6 @@ Using functions of opencv i have changed the colour profiles of an image from BG
 
 2)opencv-2 (Edge detection):
 In this program opencv library has been used to detect all the edges in an image, the Canny() has been used, before that the image has been converted to grayscale, for bettwe edge detection.
+
+3)opencv-3 (Erosion and Dilation)
+Erosion and dilation of edges has been performed on the cqanny image from the previous program, erode() and dilate() has been used, a ones matrix has been passed to the function which shows the degree to which erosion and dilation of an image has to take place.
