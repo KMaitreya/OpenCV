@@ -13,3 +13,6 @@ Erosion and dilation of edges has been performed on the cqanny image from the pr
 
 4)opencv-4 (Noise reduction and removal)
 Using opencv functions we have demonsrated the reduction of noise from the given image. The level of noise reduction will be based on the values passed to the function.
+
+5)opencv-5 (Drawing and writing on an image)
+Using opencv fucntion we have drawn a circle, a rectangle and a line on a complete black image made out of a zeroes numpy array. We have also written a text on that image. parameetrs of the function used are explained in the jupyter notebook.
