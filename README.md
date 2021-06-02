@@ -1,6 +1,6 @@
 # OpenCV
 
-The images are taken from a folder called /images. The folder is included.
+The images are taken from a folder called /images. The folder is included.Other folders such as /files and /videos hahve also been included.
 
 1)opencv-1 (Changing the colour profile of an image):
 Using functions of opencv i have changed the colour profiles of an image from BGR to RGB, HSV and Grayscale. THe images are read using imread() and displayed using mathplotlib library.
@@ -19,3 +19,6 @@ Using opencv fucntion we have drawn a circle, a rectangle and a line on a comple
 
 6)opencv-6 (colour detection)
 Using open cv function we can detect various colours in an image. We used upper and lower bound for each colour to separate it from the image.
+
+7)opencv-7 (face detection)
+In this notebook we have used cascade classifier to detect the face. The original image has to be onverted into a grayscale for cascade classifier to work, we have used a green rectangle to denote the detected face. The coordinates of the rectangle come as an output of the detectMultiScale().
