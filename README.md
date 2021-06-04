@@ -22,3 +22,6 @@ Using open cv function we can detect various colours in an image. We used upper 
 
 7)opencv-7 (face detection)
 In this notebook we have used cascade classifier to detect the face. The original image has to be onverted into a grayscale for cascade classifier to work, we have used a green rectangle to denote the detected face. The coordinates of the rectangle come as an output of the detectMultiScale().
+
+8)opencv-9 (ball tracking)
+In this notebook we have used open cv fucntions to track the movemnt of a ball. Firstly the ball has been detected and then using contours it's center has been found after which the movement of the ball has been detected each time the ball and correspondlingly the center moves.
